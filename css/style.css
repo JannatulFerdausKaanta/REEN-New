@@ -1,0 +1,411 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/******** Reen Homepage CSS starts *********/
+
+/******** header-section CSS starts *********/
+
+.header-section{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #f5f7fa;
+}
+.top-header .info-inner{
+	display: block;
+	margin: 0px;
+}
+.top-header .info-inner li{
+	display: inline-block;
+	list-style: none;
+}
+.top-header .info-inner li a{
+	font-size: 14px;
+	font-weight: 500;
+	color: #506a85;
+	margin-right: 15px;
+}
+.top-header .info-inner li a:hover{
+	text-decoration: none;
+}
+.top-header .info-inner li a .fa{
+	margin-right: 7px;
+}
+.top-header .social-icons{
+	text-align: right;
+	display: block;
+	margin: 0px;
+}
+.top-header .social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+.top-header .social-icons li a{
+	font-size: 14px;
+	color: #506a85;
+	margin:0px 0px 0px 18px;
+}
+.top-header .social-icons li a .fa{
+}
+.header-section .navbar-wrapper{
+	width: 100%;
+	position: relative;
+	background: rgba(0, 0, 0, .5) !important;
+	z-index: 15;
+}
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgba(255, 255, 255, .5) !important;
+}
+.header-section .bg-light{
+	width: 100%;
+	padding: 15px 0px;
+	background: #ffffff !important;
+}
+.header-section .navbar-expand-lg .navbar-nav{
+	margin-left: 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #506a85;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px 10px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #506a85;
+	font-weight: 400;
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus, 
+ .header-section .navbar-light .navbar-nav .nav-link:hover{
+ 	color: #0ab79c;
+ }
+.header-section .fa-search{
+	color: #506a85;
+}
+
+/******** header-section CSS ends *********/
+
+/******** slider-section CSS ends *********/
+.slider-section{
+	width: 100%;
+}
+.slider-section .carousel-caption {
+	position: absolute;
+	right: 15%;
+	left: 15%;
+	bottom: 30%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+.slider-section .carousel-caption h2{
+	font-size: 64px;
+	line-height: 74px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.slider-section .carousel-caption p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.slider-section .carousel-caption .btn-info{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 10px 35px;
+	margin-top: 35px; 
+	background: #00bc9c;
+	color: #ffffff;
+	border-radius: 2px;
+	border: 1px solid #00bc9c;
+	transition: 1s;
+}
+.slider-section .carousel-caption .btn-info:focus, 
+.slider-section .carousel-caption .btn-info:hover{
+ 	background: transparent;
+ 	overflow: hidden;
+ 	color: #00bc9c;
+ 	border: 1px solid #00bc9c;
+}
+/******** slider-section CSS ends *********/
+
+/******** who-we-are CSS ends *********/
+.who-we-are{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-are .title{
+	width: 100%;
+	text-align: center;
+}
+.who-we-are .title h2{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #506a85;
+	margin-bottom: 20px;
+}
+.who-we-are .title p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.who-we-are .media{
+	margin-top: 40px;
+}
+.who-we-are .media .media-body{
+	padding: 0px 10px;
+}
+.who-we-are .media .media-body h5{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #506a85;
+}
+.who-we-are .media .media-body p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+/******** who-we-are CSS ends *********/
+
+/******** works CSS starts *********/
+.works{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.works .title{
+	width: 100%;
+	padding-bottom: 60px; 
+	text-align: center;
+}
+.works .title h2{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #506a85;
+	margin-bottom: 10px;
+}
+.works .title p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.works .card{
+	text-align: center;
+	border-radius: 0px;
+}
+.works .card .card-img-top{
+	border-radius: 0px;
+}
+.works .card .card-body .card-title{
+	font-size: 16px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 5px;
+ }
+.works .card .card-body .card-text{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a3b1bf;
+ }
+.works .owl-carousel{
+ 	margin-top: 50px;
+ }
+.works .owl-theme .owl-dots .owl-dot.active span,
+.works .owl-theme .owl-dots .owl-dot:hover span{
+	background: #00bc9c;
+}
+.works .owl-theme .owl-nav.disabled+.owl-dots{
+	margin-top: 25px;
+}
+/******** works CSS ends *********/
+
+.counter{
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	background: #f2f5f7;
+	border: 2px solid #506a85;
+}
+.counter .fa{
+	font-size: 60px;
+	color: #506a85;
+}
+.counter p{
+	font-size: 80px;
+	color: #000;
+}
+
+/******* get-in-touch CSS starts ********/
+.get-in-touch{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffffff;
+}
+.get-in-touch .title{
+	width: 100%;
+	padding-bottom: 60px; 
+	text-align: center;
+}
+.get-in-touch .title h2{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #506a85;
+	margin-bottom: 10px;
+}
+.get-in-touch .title p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #73879c;
+}
+.get-in-touch .title .btn-info{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 10px 35px;
+	margin-top: 20px; 
+	background: #00bc9c;
+	color: #ffffff;
+	border-radius: 2px;
+	border: 1px solid #00bc9c;
+	transition: 1s;
+}
+.get-in-touch .title .btn-info:hover{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c; 
+}
+/******* get-in-touch CSS ends ********/
+
+/******* Footer CSS starts ********/
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+.footer .widget{
+	width: 100%;
+}
+.footer .widget h4{
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.footer .widget p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+	font-weight: 400;
+	margin: 10px 0px;
+}
+.footer .widget .link{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+	font-weight: 700;
+}
+.footer .widget .link:hover{
+	text-decoration: none;
+	color: #00bc9c;
+}
+.footer .widget .link .fa{
+	margin-left: 10px;
+}
+.footer .widget .card-group{
+	margin-bottom: 10px;
+}
+.footer .widget .card{
+	border: 0px solid rgba(0,0,0,.125);
+	border-radius: 0px;
+	margin-right: 10px;
+}
+.footer .widget .card-img-top{
+	border-radius: 0px;
+}
+.footer .widget .fa{
+	margin-right: 8px;
+}
+.footer .widget .form .mx-sm-3{
+	margin-left: 0px !important;
+}
+.footer .widget .form .form-control{
+	width: 100%;
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	border-radius: 2px;
+	font-size: 12px;
+	padding: 18px 4px;
+}
+.footer .widget .form .btn-primary{
+	color: #ffffff;
+	background-color: #00bc9c;
+	border-color: #00bc9c;
+	position: absolute;
+	right: 12%;
+	bottom: 30%;
+	padding: 5px 12px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.footer .widget .form .btn-primary:hover{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+/******* Footer CSS ends ********/
+.footer-bottom{
+	width: 100%;
+	padding: 20px 0px;
+	background: #283645;
+}
+.footer-bottom .col-md-6{
+	margin-top: 20px;
+}
+.footer-bottom .col-md-6 p{
+	color: #707e8c;
+}
+.footer-bottom .col-md-6 .nav li a{
+	margin-right: 10px;
+	color: #707e8c;
+}
+.footer-bottom .col-md-6 .nav li a:hover{
+	text-decoration: none;
+}
